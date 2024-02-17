@@ -1,0 +1,73 @@
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 25px;
+    /* color: white; */
+}
+.cont{
+    background-color: rgb(135, 156, 156);
+    border-radius: 10px;
+}
+.cont:hover{
+    background-color: rgb(4, 0, 216);
+    border-radius: 10px;
+    color: white;
+}
+.text-center{
+    font-size: 70px;
+}
+.bg-color{
+    background-color: rgb(7, 7, 182);
+    border-radius: 10px;
+    color: white;
+}
+
+.conts{
+    background-color: rgb(12, 0, 237);
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.conts:hover{
+    background-color: rgb(237, 8, 149);
+    border-radius: 20px;
+}
+.conts1{
+    background-color: rgb(20, 239, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.conts2{
+    background-color: rgb(10, 245, 245);
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.conts2:hover{
+    background-color: rgb(245, 10, 10);
+    border-radius: 10px;
+    color: white;
+}
+.containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+}
+.text{
+    color: white;
+}
+
+
+.fade-in-fwd {
+	-webkit-animation: fade-in-fwd 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+	        animation: fade-in-fwd 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+}
+
+.fade-in-fwd{-webkit-animation:fade-in-fwd .8s cubic-bezier(.39,.575,.565,1.000) infinite both;animation:fade-in-fwd .8s cubic-bezier(.39,.575,.565,1.000) infinite both}
+
+ @-webkit-keyframes fade-in-fwd{0%{-webkit-transform:translateZ(-80px);transform:translateZ(-80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes fade-in-fwd{0%{-webkit-transform:translateZ(-80px);transform:translateZ(-80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}

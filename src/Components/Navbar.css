@@ -1,0 +1,23 @@
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+}
+ul li{
+  font-size: 23px;
+  padding: 10px;
+}
+.sugn-up{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.tracking-in-expand-fwd {
+	-webkit-animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+	        animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+}

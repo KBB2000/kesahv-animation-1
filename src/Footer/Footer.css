@@ -1,0 +1,39 @@
+      
+.footer-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para1{
+    font-size: 20px;
+}
+.email{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.aherd{
+    color: #6441f0ff;
+    font-weight: bold;
+
+}
+.icon{
+    background-color: aqua;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+.see-detail:hover{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+  padding: 10px;
+  border: none;
+}
+.bottom{
+    margin-bottom: 30px;
+}
