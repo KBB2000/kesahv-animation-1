@@ -5,7 +5,7 @@ import Session from "../Session/Session";
 const Card = () => {
   return (
     <>
-      <div className="containers fade-in-fwd">
+      <div className="containers " data-aos="fade-left">
         <div className="card cont" style={{ width: "25rem", height: "25rem" }}>
           <div className="card-body">
             <h1 className="text-center">🙂</h1>

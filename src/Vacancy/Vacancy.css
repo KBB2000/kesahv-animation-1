@@ -4,6 +4,16 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media only screen and (max-width: 600px) {
+  .main {
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 2px;
+  }
+}
 .vacancy-heading{
     margin-left: 40px;
     margin-top: 50px;

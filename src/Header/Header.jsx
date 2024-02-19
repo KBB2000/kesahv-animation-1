@@ -5,27 +5,31 @@ import { FaApple } from "react-icons/fa";
 import Card from "../Cards/Card";
 
 const Header = () => {
+
+
   return (
     <>
       <div className="col">
         <div className="division">
           <p>Ahead App</p>
-          <h1 className="focus-in-expand">
+          <h1 className="main-heading"  data-aos="fade-right">
             Master Your Life by mastering emostion
           </h1>
           <div className="flex">
-            <button className="sugn-up">
+            <button className="sugn-up flex">
               <FaApple className="apple" /> Download on the <b>App Store</b>
             </button>
+            <div className="start-icon flex">
             <IoIosStar className="start" />
             <IoIosStar className="start" />
             <IoIosStar className="start" />
             <IoIosStar className="start" />
+            </div>
           </div>
           <p>100+ App Store Review</p>
         </div>
         <div className="image">
-          <img className="fade-in-top"
+          <img className=""  data-aos="fade-left" 
             src="https://images.pexels.com/photos/4065906/pexels-photo-4065906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt=""
           />
@@ -61,7 +65,7 @@ const Header = () => {
         </div>
       </div>
       </div>
-      <h1 className="minor-heading tracking-in-expand-fwd">Does This Sound Familiar... 🤗</h1> 
+      <h1 className="minor-heading " data-aos="fade-right">Does This Sound Familiar... 🤗</h1> 
       <Card />
     </>
   );

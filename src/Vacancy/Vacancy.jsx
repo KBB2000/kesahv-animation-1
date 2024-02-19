@@ -13,7 +13,7 @@ const Vacancy = () => {
             <li>Full-stack position</li>
             <li>Full-stack developer</li>
             <li>developer</li>
-            <button  className='sugn-up see-detail tracking-in-expand-fwd'>See Details</button>
+            <button  className='btn ' data-aos="zoom-in">See Details</button>
            </ul>
         </div>
         <div className="ul-li">
@@ -22,7 +22,7 @@ const Vacancy = () => {
             <li>Full-stack position</li>
             <li>Full-stack developer</li>
             <li>developer</li>
-            <button  className='sugn-up see-detail tracking-in-expand '>See Details</button>
+            <button  className='sugn-up see-detail' data-aos="zoom-in">See Details</button>
            </ul>
         </div>
         <div className="ul-li">
@@ -31,7 +31,7 @@ const Vacancy = () => {
             <li>Full-stack position</li>
             <li>Full-stack developer</li>
             <li>developer</li>
-            <button  className='sugn-up see-detail tracking-in-expand-fwd'>See Details</button>
+            <button  className='btn ' data-aos="zoom-in">See Details</button>
            </ul>
         </div>
       </div>
